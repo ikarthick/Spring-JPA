@@ -3,6 +3,8 @@ package com.srikar.learning.jpa.learnjpa.controller;
 import com.srikar.learning.jpa.learnjpa.entity.User;
 import com.srikar.learning.jpa.learnjpa.service.UserDAOService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;

@@ -33,6 +33,7 @@ public class UserDAOService {
 
     //Get specific user by Id
     public User getUserById(Integer id){
+
         return userRepository.findById(id).orElse(null);
     }
 
